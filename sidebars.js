@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Introduce: ['introduce'],
-    String: ['ip'],
+    "읽기 전에": ['introduce'],
+    문자열: ['ip'],
   },
 };
