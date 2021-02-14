@@ -39,3 +39,32 @@ None
 
 ## 문제를 처음 본 소감
 
+아주 기본적인 과제라고 생각됐는데도 막상 풀려고 보니 막막한 기분이 들었다. 인덱스를 이동하면서 `element`와 일치하는 값이 있는지 추적하는 식으로 하면 되지 않을까 싶었다.
+
+## 문제 풀이
+
+파이썬 for 문에는 제너레이터 방식을 사용하는 `range()` 함수가 있다.
+
+```python
+>>> list(range(5))
+[0,1,2,3,4]
+```
+
+이를 이용하면 적은 메모리로도 범위 검색이 가능하다. 주어진 `some_list`의 길이 만큼을 순회하는 for 문이 있다고 가정해보자.
+
+```python
+for i in range(len(some_list)):
+```
+
+이제 인덱스 `ì`를 이용해 `element`와 리스트 내부 값을 비교하면 된다.
+
+```python
+for i in range(len(some_list)):
+    if element == some_list[i]:
+        return i
+return None
+```
+
+이렇게 선형 탐색이 구현되었다. 기본기 중의 기본기이니 잊지 않도록 하자.
+
+
