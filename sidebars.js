@@ -1,6 +1,7 @@
 module.exports = {
   someSidebar: {
-    "읽기 전에": ['introduce'],
-    문자열: ['ip', 'balanced', 'valid-palindrome', 'reverse-string'],
+    Intro: ['introduce'],
+    Leetcode: ['ip', 'balanced', 'valid-palindrome', 'reverse-string'],
+    Codeit: ['linear-search'],
   },
 };
