@@ -3,6 +3,6 @@ module.exports = {
     Intro: ['introduce'],
     Leetcode: ['ip', 'balanced', 'valid-palindrome', 'reverse-string'],
     Codeit: ['linear-search'],
-    Programmers: ['practice-test', 'crane-game'],
+    Programmers: ['practice-test', 'crane-game', 'radio-song'],
   },
 };
